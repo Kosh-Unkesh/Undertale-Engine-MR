@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_ntm_vector2",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_ntm_vector2",
+  "parent":{
+    "name":"NatuMikqn",
+    "path":"folders/Scripts/NatuMikqn.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

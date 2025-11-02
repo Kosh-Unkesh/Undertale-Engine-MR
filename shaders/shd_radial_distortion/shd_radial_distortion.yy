@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_radial_distortion",
+  "name":"shd_radial_distortion",
+  "parent":{
+    "name":"ScreenShader",
+    "path":"folders/Shaders/ScreenShader.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

@@ -1,3 +1,5 @@
+#macro BLUR_BOARD_BACKGROUND true
+
 depth=DEPTH_BATTLE.BOARD;
 
 _surface = -1

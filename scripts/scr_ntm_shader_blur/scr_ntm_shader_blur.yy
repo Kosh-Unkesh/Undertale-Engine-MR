@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_ntm_shader_blur",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_ntm_shader_blur",
+  "parent":{
+    "name":"Shader",
+    "path":"folders/Scripts/NatuMikqn/Shader.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

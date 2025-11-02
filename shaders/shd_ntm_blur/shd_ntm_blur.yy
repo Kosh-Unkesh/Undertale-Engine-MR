@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_ntm_blur",
+  "name":"shd_ntm_blur",
+  "parent":{
+    "name":"NatuMikqn",
+    "path":"folders/Shaders/NatuMikqn.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

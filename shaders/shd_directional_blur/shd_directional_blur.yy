@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_directional_blur",
+  "name":"shd_directional_blur",
+  "parent":{
+    "name":"ScreenShader",
+    "path":"folders/Shaders/ScreenShader.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

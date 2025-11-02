@@ -21,10 +21,21 @@ surface_set_target(_surface)
 	draw_clear_alpha(color_bg,0);
 surface_reset_target();
 
-surface_set_target(_surface)
-draw_surface_ext(application_surface,camera.x+camera._shake_pos_x,camera.y+camera._shake_pos_y,1/camera.scale_x,1/camera.scale_y,0,c_white,1-alpha_bg);
-draw_surface(_surface4,0,0);
-surface_reset_target();
+if (BLUR_BOARD_BACKGROUND and alpha_bg < 1) {
+	surface_set_target(_surface)
+	
+	var _blurred_backbuffer = surface_get_blur(application_surface, 16, 16, true, 2)
+	draw_surface_ext(_blurred_backbuffer,camera_get_view_x(camera._camera),camera_get_view_y(camera._camera),1/camera.scale_x,1/camera.scale_y,0,c_white,1-alpha_bg);
+	surface_free(_blurred_backbuffer)
+	
+	draw_surface(_surface4,0,0);
+	surface_reset_target();
+} else {
+	surface_set_target(_surface)
+	draw_surface_ext(application_surface,camera.x+camera._shake_pos_x,camera.y+camera._shake_pos_y,1/camera.scale_x,1/camera.scale_y,0,c_white,1-alpha_bg);
+	draw_surface(_surface4,0,0);
+	surface_reset_target();
+}
 
 
 for(var i = 0; i < global.borderCount; i++){
