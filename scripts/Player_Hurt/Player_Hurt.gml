@@ -9,6 +9,4 @@ function Player_Hurt() {
 	}else{
 		return Player_Heal(-DAMAGE);
 	}
-
-
 }

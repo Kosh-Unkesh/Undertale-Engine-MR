@@ -3,6 +3,7 @@ function Input_Init() {
 
 	global._gmu_input=ds_map_create();
 	global._gmu_input_state_override=ds_map_create();
+	global._gmu_input_gamepad_axis_deadzone=0.35;
 
 	enum INPUT_TYPE{
 		KEYBOARD,
